@@ -15,7 +15,11 @@ const items = [
     icon: <UserOutlined />,
     label: <Link to="/users">Danh sách user</Link>,
   },
- 
+   {
+    key: "3",
+    icon: <UserOutlined />,
+    label: <Link to="/product">Danh sách sản phẩm</Link>,
+  },
 ];  
 
 const Dashboard: React.FC = () => {
