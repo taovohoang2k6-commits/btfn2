@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Space, Table, Tag } from 'antd';
+import { Flex, Space, Table, Tag , Image } from 'antd';
 import type { TableProps } from 'antd';
 
 interface DataType {
