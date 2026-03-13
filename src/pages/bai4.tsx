@@ -44,9 +44,9 @@ const Bai4lab3 = () => {
 
 
       {data && (
-        <pre style={{ marginTop: 20 }}>
-          {JSON.stringify(data)}
-        </pre>
+<div>
+  {JSON.stringify(data)}
+</div>
       )}
     </>
   );
