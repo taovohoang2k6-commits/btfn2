@@ -29,7 +29,7 @@ const Login: React.FC = () => (
     <Form.Item<FieldType>
       label="Username"
       name="username"
-      rules={[{ required: true, message: 'Please input your username!' }]}
+      rules={[{ required: true, message: 'chưa nhập tên' }]}
     >
       <Input />
     </Form.Item>
@@ -37,7 +37,9 @@ const Login: React.FC = () => (
         <Form.Item<FieldType>
       label="email"
       name="email"
-      rules={[{ required: true, message: 'Please input your email!' }]}
+      rules={[{ required: true, message: 'chưa nhập email' }
+        ,{type : "email",message : 'email chưa đúng định dạng'}
+      ]}
     >
       <Input />
     </Form.Item>
@@ -45,7 +47,9 @@ const Login: React.FC = () => (
     <Form.Item<FieldType>
       label="Password"
       name="password"
-      rules={[{ required: true, message: 'Please input your password!' }]}
+      rules={[{ required: true, message: 'chưa nhập mật khẩu' },
+        {min : 6 , message : "mật khẩu tối thiểu 6 ký tự"}
+      ]}
     >
       <Input.Password />
     </Form.Item>
@@ -58,6 +62,10 @@ const Login: React.FC = () => (
       </Button>
     </Form.Item>
   </Form>
+
+
+
+
 );
 
 export default Login

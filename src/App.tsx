@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import Uers from "./pages/Uers";
 import Product from "./pages/Product";
 import Bai2 from "./pages/bai2";
+import Bai4lab3 from "./pages/bai4"
 const { Header, Content, Footer } = Layout;
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
         <Route path="/users" element={<Uers/>}></Route>
         <Route path="/product" element={<Product/>}></Route>
         <Route path="/bai2" element={<Bai2/>}></Route>
+        <Route path="/bai4lab3" element={<Bai4lab3/>}></Route>
       </Routes>
        </div>
       </Content>
