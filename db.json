@@ -1,4 +1,64 @@
 {
   "products": [],
-  "users": []
+  "users": [],
+  "stories": [
+    {
+      "title": "dầds",
+      "author": "fsafaf",
+      "image": "fasfas",
+      "description": "đá",
+      "categoryId": 4,
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "title": "dấd",
+      "description": "fsdấdfaf",
+      "active": true,
+      "id": 1
+    },
+    {
+      "title": "dádd",
+      "description": "sdasd",
+      "active": true,
+      "id": 2
+    },
+    {
+      "title": "dádd",
+      "description": "sdasd",
+      "active": true,
+      "id": 3
+    },
+    {
+      "title": "dádd",
+      "description": "sdasd",
+      "active": true,
+      "id": 4
+    },
+    {
+      "title": "dádd",
+      "description": "sdasd",
+      "active": true,
+      "id": 5
+    },
+    {
+      "title": "dádd",
+      "description": "sdasd",
+      "active": true,
+      "id": 6
+    },
+    {
+      "title": "dàefe",
+      "description": "few",
+      "active": true,
+      "id": 7
+    },
+    {
+      "title": "dàefe",
+      "description": "few",
+      "active": false,
+      "id": 8
+    }
+  ]
 }

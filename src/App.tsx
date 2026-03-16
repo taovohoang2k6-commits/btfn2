@@ -8,6 +8,8 @@ import Product from "./pages/Product";
 import Bai2 from "./pages/bai2";
 import Bai4lab3 from "./pages/bai4"
 import Bai3lab3  from "./pages/bai3lab3"
+import Lab4 from "./pages/lab4";
+import Categories from "./pages/categories";
 const { Header, Content, Footer } = Layout;
 
 function App() {
@@ -55,6 +57,8 @@ function App() {
         <Route path="/bai2" element={<Bai2/>}></Route>
         <Route path="/bai4lab3" element={<Bai4lab3/>}></Route>
         <Route path="/bai3lab3" element={<Bai3lab3/>}></Route>
+        <Route path="/lab4" element={<Lab4/>}></Route>
+        <Route path="/categories" element={<Categories/>}></Route>
       </Routes>
        </div>
       </Content>
