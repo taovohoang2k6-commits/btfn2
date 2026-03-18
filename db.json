@@ -3,12 +3,29 @@
   "users": [],
   "stories": [
     {
-      "title": "dầds",
-      "author": "fsafaf",
-      "image": "fasfas",
-      "description": "đá",
-      "categoryId": 4,
-      "id": 1
+      "title": "fsfdsf",
+      "author": "fdg",
+      "image": "gsgsdg",
+      "description": "gsdgdsg",
+      "categoryId": 7,
+      "createdAt": "12-3-2016",
+      "id": 4
+    },
+    {
+      "title": "gsga",
+      "author": "rreah",
+      "image": "hharh",
+      "description": "hreahrh",
+      "categoryId": 7,
+      "id": 5
+    },
+    {
+      "title": "mot",
+      "author": "rreah",
+      "image": "hharh",
+      "description": "hreahrh",
+      "categoryId": 7,
+      "id": 6
     }
   ],
   "categories": [

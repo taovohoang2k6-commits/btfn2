@@ -10,6 +10,7 @@ import Bai4lab3 from "./pages/bai4"
 import Bai3lab3  from "./pages/bai3lab3"
 import Lab4 from "./pages/lab4";
 import Categories from "./pages/categories";
+import Lab5 from "./pages/lab5";
 const { Header, Content, Footer } = Layout;
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
         <Route path="/bai3lab3" element={<Bai3lab3/>}></Route>
         <Route path="/lab4" element={<Lab4/>}></Route>
         <Route path="/categories" element={<Categories/>}></Route>
+        <Route path="/lab5" element={<Lab5/>}></Route>
       </Routes>
        </div>
       </Content>
