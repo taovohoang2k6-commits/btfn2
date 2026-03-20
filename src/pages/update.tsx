@@ -3,7 +3,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-
+import toast from "react-hot-toast";
 const Update = () => {
   const [form] = Form.useForm();
   const { id } = useParams();
@@ -43,6 +43,7 @@ const Update = () => {
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["getAllStories"] });
+      toast.success("sửa thành công")
       navigate("/lab5");
     },
   });
