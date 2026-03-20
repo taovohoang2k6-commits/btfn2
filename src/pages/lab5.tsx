@@ -3,7 +3,7 @@ import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { Image, Table, Button, Input } from "antd";
 import type { ColumnsType } from "antd/es/table";
 import axios from "axios";
-
+import { Link } from "react-router-dom";
 interface Story {
   id: number;
   title: string;
@@ -62,16 +62,22 @@ export default function Lab5() {
         new Date(date).toLocaleDateString("vi-VN"),
     },
     {
-      title: "Action",
-      render: (_, record) => (
-        <Button
-          danger
-          onClick={() => deleteMutation.mutate(record.id)}
-        >
-          Xóa
-        </Button>
-      ),
-    },
+  title: "Action",
+  render: (_, record) => (
+    <div style={{ display: "flex", gap: 8 }}>
+      <Button
+        danger
+        onClick={() => deleteMutation.mutate(record.id)}
+      >
+        Xóa
+      </Button>
+
+<Link to={`/update/${record.id}`}>
+  <Button type="primary">Sửa</Button>
+</Link>
+    </div>
+  ),
+}
   ];
 
   if (isError) {
@@ -87,7 +93,9 @@ export default function Lab5() {
         onChange={(e) => setKeyword(e.target.value)}
       />
 
-
+    <Link to="/lab4">
+    <Button type="primary" className="ml-3">thêm</Button>
+    </Link>
       <Table
         columns={columns}
         dataSource={filteredData}

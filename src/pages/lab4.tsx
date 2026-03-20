@@ -2,10 +2,10 @@ import React from "react";
 import { Form, Input, Button, Select } from "antd";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import axios from "axios";
-
+import { useNavigate } from "react-router-dom";
 function Lab4() {
 
-
+const navigate = useNavigate();
   const { data: categories } = useQuery({
     queryKey: ["categories"],
     queryFn: async () => {
@@ -19,6 +19,9 @@ function Lab4() {
     mutationFn: async (values: any) => {
       await axios.post("http://localhost:3000/stories", values);
     },
+     onSuccess: () => {
+    navigate("/lab5");
+  },
   });
 
   const onFinish = async (values: any) => {
