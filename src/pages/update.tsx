@@ -39,7 +39,9 @@ const Update = () => {
 
   const mutation = useMutation({
     mutationFn: async (values: any) => {
-      return axios.put(`http://localhost:3000/stories/${id}`, values);
+      return axios.patch(`http://localhost:3000/stories/${id}`, {
+         title: values.title,   
+      });
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["getAllStories"] });
@@ -65,7 +67,7 @@ const Update = () => {
         <Input />
       </Form.Item>
 
-      <Form.Item name="author" label="Tác giả">
+      {/* <Form.Item name="author" label="Tác giả">
         <Input />
       </Form.Item>
 
@@ -79,7 +81,7 @@ const Update = () => {
 
       <Form.Item name="categoryId" label="Danh mục">
         <Select options={options} placeholder="Chọn danh mục" />
-      </Form.Item>
+      </Form.Item> */}
 
       <Button type="primary" htmlType="submit" loading={mutation.isPending}>
         Cập nhật
