@@ -11,7 +11,7 @@ interface Story {
   image: string;
   description: string;
   categoryId: number;
-  createdAt: string;
+  createdAt: string
 }
 
 export default function Lab5() {
@@ -28,7 +28,6 @@ export default function Lab5() {
       return res.data;
     },
   });
-
 
   const deleteMutation = useMutation({
     mutationFn: async (id: number) => {

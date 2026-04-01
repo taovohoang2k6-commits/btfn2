@@ -54,7 +54,12 @@ const navigate = useNavigate();
 
    
       <Form.Item label="Category" name="categoryId">
-        <Select options={options} placeholder="Chọn danh mục" />
+        <Select options={[
+
+          {label: "Tiểu thuyết" , value :"Tiểu thuyết"},
+          {label: " Khoa học" , value :" Khoa học"},
+          {label: " Lịch sử" , value :" Lịch sử"}
+        ]} placeholder="Chọn danh mục" />
       </Form.Item>
 
       <Button type="primary" htmlType="submit" loading={mutation.isPending}>

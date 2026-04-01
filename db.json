@@ -3,44 +3,20 @@
   "users": [],
   "stories": [
     {
-      "title": "fefecsffefefe11dđ1",
-      "author": "fdgfefefffcefe",
-      "image": "gsgsdgfefff",
-      "description": "gsdgdsgfefff",
-      "categoryId": 5,
-      "id": 4
-    },
-    {
-      "title": "gsga",
-      "author": "rreah",
-      "image": "hharh",
-      "description": "hreahrh",
-      "categoryId": 7,
-      "id": 5
-    },
-    {
-      "title": "vdv",
-      "author": "gg",
-      "image": "gdsg",
-      "description": "gdgdg",
-      "categoryId": 7,
-      "id": 6
-    },
-    {
-      "title": "dghd",
-      "author": "hdthdt",
-      "image": "tjhj",
-      "description": "gjgfjg",
-      "categoryId": 5,
-      "id": 7
-    },
-    {
       "title": "fafa",
       "author": "fdsgds",
       "image": "gdsgsd",
       "description": "gsgsg",
       "categoryId": 7,
       "id": 8
+    },
+    {
+      "title": "hmhm",
+      "author": "mghmh",
+      "image": "mhmh",
+      "description": "mhgmh",
+      "categoryId": 7,
+      "id": 9
     }
   ],
   "categories": [
