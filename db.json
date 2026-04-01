@@ -1,6 +1,22 @@
 {
   "products": [],
-  "users": [],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$3cvf5QEZ67nFSzYpYScBiOcyghM9w/Y.2HoZs/9ZJC6qccHPv62Cq",
+      "id": 1
+    },
+    {
+      "email": "taovohoang2k6@gmail.com",
+      "password": "$2a$10$M15DBbI9QnLSSXfpw.fwTuwglcImnfY05zIxrzxIi9FRv/MnEX7xS",
+      "id": 2
+    },
+    {
+      "email": "taovohoang@gmail.com",
+      "password": "$2a$10$oM5cOy/jy07h69EzK0XqAuN6aXNSICAGB8nj8y5ibeu1s/5Oy46RC",
+      "id": 3
+    }
+  ],
   "stories": [
     {
       "title": "fafa",
