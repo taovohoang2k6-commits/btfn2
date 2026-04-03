@@ -16,6 +16,7 @@ import Update from "./pages/update";
 import Register from "./pages/Register";
 import LOGIN from "./Login";
 import { useAuthStore } from "./stores/useAuthStore";
+import Stories from "./pages/Stories";
 
 const { Header, Content, Footer } = Layout;
 
@@ -37,6 +38,7 @@ function App() {
               <Link to="/dashboard" className="!text-white">Dashboard</Link>
               <Link to="/users" className="!text-white">Users</Link>
               <Link to="/product" className="!text-white">Product</Link>
+              <Link to="/stories">Stories</Link>
             </div>
 
 <div className="hidden md:flex items-center space-x-6">
@@ -60,6 +62,7 @@ function App() {
     <Link to="/login" className="!text-white">
       Đăng nhập
     </Link>
+    
   )}
 </div>
 
@@ -87,9 +90,11 @@ function App() {
             <Route path="/login" element={<LOGIN />} />
            
             <Route path="/register" element={<Register />} /> 
+            <Route path="/stories" element={<Stories />} /> 
+            
+            
 
           </Routes>
-
         </div>
       </Content>
 

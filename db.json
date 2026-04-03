@@ -19,20 +19,19 @@
   ],
   "stories": [
     {
-      "title": "fafa",
-      "author": "fdsgds",
-      "image": "gdsgsd",
-      "description": "gsgsg",
-      "categoryId": 7,
-      "id": 8
+      "title": "chuyện2",
+      "author": "một",
+      "id": 1
     },
     {
-      "title": "hmhm",
-      "author": "mghmh",
-      "image": "mhmh",
-      "description": "mhgmh",
-      "categoryId": 7,
-      "id": 9
+      "title": "chuyện 3",
+      "author": "một",
+      "id": 2
+    },
+    {
+      "title": "chuyện2",
+      "author": "một",
+      "id": 3
     }
   ],
   "categories": [

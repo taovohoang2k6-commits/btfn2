@@ -18,7 +18,7 @@ const Register = () => {
         token: data.accessToken,
       });
 
-      message.success("Đăng nhập thành công!");
+      message.success("Đăng ky thành công!");
     },
 
     onError: () => {
